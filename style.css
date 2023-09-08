@@ -1,0 +1,228 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Fibel Sued';
+}
+
+@font-face {
+    font-family: "Fibel Sued";
+    src:
+        url("Fonts/Fibel_Sued.eot") format("eot"),
+        url("Fonts/Fibel_Sued.woff") format("woff"),
+        url("Fonts/Fibel_Sued.ttf") format("truetype"),
+        url("Fonts/Fibel_Sued.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('font-awesome/fontawesome-webfont.ttf') format('truetype');
+}
+
+body {
+    background-image: url(/img/oranges-7510079_1920.png);
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 1.8rem;
+}
+
+main {
+    min-height: 100vh;
+    background-color: #ffffffcb;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+/* ---- Stil för sections ---- */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding: 3rem 7rem 2rem;
+}
+
+/* ---- Stil för header ---- */
+header {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding-bottom: 2vh;
+    background-color: #fffffff9;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* ---- Stil för H1 och navigation ---- */
+
+h1 {
+    font-size: 5rem;
+    padding-top: 3rem;
+    color: #eb9390;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    justify-content: center;
+}
+
+/* ---- Stil för länkar ---- */
+a {
+    text-decoration: none;
+    color: #567b5f;
+}
+
+nav a:hover {
+    color: #9eb5a3;
+}
+
+nav li:hover {
+    transform: scale(1.2);
+}
+
+
+/* ---- Stil för Find us ---- */
+#findus {
+    font-size: 2.5rem;
+}
+
+iframe {
+    display: flex;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+/* ---- Stil för video ---- */
+video {
+    display: flex;
+    width: 100%;
+    padding: 5rem 1rem;
+}
+
+/* ---- Stil för sidan Menu ---- */
+.foodNames {
+    font-size: 20px;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* ---- Stil för article på sidan Menu ---- */
+hr {
+    margin-top: 10px;
+}
+
+.prisSek {
+    color: #9eb5a3;
+}
+
+th {
+    padding-top: 50px;
+    font-size: 2rem;
+}
+
+.ingredients {
+    font-size: 1.5rem;
+}
+
+
+
+/* ---- Stilsättning av bilder ---- */
+.menuImg {
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.076), 0 6px 20px 0 rgba(0, 0, 0, 0.068);
+}
+
+.drinkImg {
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.076), 0 6px 20px 0 rgba(0, 0, 0, 0.068);
+}
+
+.drinksImg {
+    width: 50%;
+    height: auto;
+}
+
+.restaurantImg {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+}
+
+/* ---- Stilsättning av footer ---- */
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    background-color: #8fa493;
+    color: antiquewhite;
+    padding-top: 20px;
+}
+
+/* ---- Stilsättning av bokning ---- */
+form {
+    background-color: #72977b;
+    padding: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #00000095;
+}
+
+input {
+    padding: 10px 30px;
+    width: 100%;
+    margin: 8px 0;
+    font-size: 1.2rem;
+}
+
+textarea {
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 8px 0;
+    font-size: 1.2rem;
+    background-color: #dfefe3;
+    border-radius: 8px;
+    border: 2px solid #5c8065;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #a6c4ae;
+}
+
+button:after {
+    content: "\f138";
+    display: inline-block;
+    font: normal normal normal 15px/2 FontAwesome;
+    color: #5c8065;
+}

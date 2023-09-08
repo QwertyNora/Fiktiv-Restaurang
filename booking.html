@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurant</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>THE RESTAURANT</h1></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="booking.html">Book your table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>
+                <p>
+                    BOOK A TABLE
+                </p>
+            </h2>
+            <p>
+                Make a reservation at The Restaurant by filling out the form below. If you have any allergies or special request, let us know by adding this in your booking.
+            </p>
+        </section>
+        <section id="formBooking">
+            <form method="get" target="index.html">
+                <div>
+                    <label for="name">Name</label><br>
+                    <input 
+                    required
+                    placeholder="Enter your name..."
+                    id="name" 
+                    name="name" 
+                    type="text">
+                </div>
+                <br>
+                <div>
+                    <label for="number">How many visitors?</label><br>
+                    <input 
+                    required
+                    placeholder="Enter number of people..."
+                    id="number" 
+                    name="number" 
+                    type="number">
+                </div>
+                <br>
+                <div>
+                    <label for="date">Date</label><br>
+                    <input 
+                    required
+                    id="date" 
+                    name="date" 
+                    type="date">
+                </div>
+                <br>
+                <div>
+                    <label for="time">Time</label><br>
+                    <input 
+                    id="time" 
+                    name="time" 
+                    type="time">
+                </div>
+                <br>
+                <div>
+                    <label for="textarea">Message to the restaurant:</label>
+                    <br>
+                    <textarea 
+                    name="textarea" 
+                    id="textarea" 
+                    cols="40" 
+                    rows="8"></textarea>
+                </div>
+                <br>
+                <button type="submit">Send </button>
+                <button type="reset">Reset </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <pre>
+            Got any questions? Don't hesitate to contact us on 08-1234567
+
+            Hit us up on Instagram @TheRestaurant
+        </pre>
+    </footer>
+</body>
+</html>
